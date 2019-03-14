@@ -1,0 +1,17 @@
+{
+	"name": "alpha",
+	"version": "1.0.0",
+	"description": "starter project ",
+	"main": "index.html",
+	"scripts": {
+		"watch:sass": "node-sass assets/sass/main.scss assets/css/style.css -w",
+		"devserver": "live-server",
+		"start": "npm-run-all --parallel devserver watch:sass"
+	},
+	"author": "Nicaela Cabuhat",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^4.11.0",
+		"npm-run-all": "^4.1.5"
+	}
+}

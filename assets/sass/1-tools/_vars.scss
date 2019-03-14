@@ -1,0 +1,23 @@
+//COLORS
+
+//primary
+$color-primary: #f2ae31;
+$color-primary-dark: darken($color-primary, 20%);
+$color-primary-light: lighten($color-primary, 20%);
+
+//secondary
+$color-secondary: #3187f2;
+$color-secondary-dark: darken($color-secondary, 20%);
+$color-secondary-light: lighten($color-secondary, 20%);
+
+//supplements
+$color-black: #000;
+$color-white: #fff;
+$color-gray: #2c2a2a;
+
+//sample color combos
+// purple+pink #4b134f, #c94b4b
+
+//TYPOGRAPHY
+$text-heading: 'Ruda', sans-serif;
+$text-body: 'Roboto Slab', serif;
